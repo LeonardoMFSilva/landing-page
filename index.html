@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Classic Shoes</title>
+</head>
+
+<body>
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Classic Store</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Marcas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Adidas</a></li>
+                            <li><a class="dropdown-item" href="#">Nike</a></li>
+                            <li><a class="dropdown-item" href="#">Balenciaga</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Procure aqui seu clássico!"
+                        aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Procurar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/Menu-->
+
+    <!--Carrossel-->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner container">
+            <div class="carousel-item active">
+                <img style="height: 650px; width: 100%;" src="https://i.imgur.com/ANvmVRp.jpg"
+                    class="d-block img-fluid mb-5" alt="balenciaga">
+            </div>
+            <div class="carousel-item">
+                <img style="height: 650px; width: 100%;" src="https://i.imgur.com/k2PdvCz.jpg"
+                    class="d-block img-fluid mb-5" alt="nike">
+            </div>
+            <div class="carousel-item">
+                <img style="height: 650px; width: 100%;" src="https://i.imgur.com/xrBq8UI.jpg"
+                    class="d-block img-fluid mb-5" alt="adidas">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!--/Carrossel-->
+
+    <!--jumbotron1-->
+    <div class="jumbotron container mt-2 mb-5">
+        <h1 class="display-5 text-center">Fala, galera!</h1>
+        <p class="lead text-center">Bem vindo ao site dos clássicos!</p>
+        <hr class="my-4">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit possimus, officia voluptas nesciunt dolores
+            itaque aperiam saepe incidunt tempora quasi, doloribus eaque quam, sit qui sequi eligendi tenetur sapiente
+            magni?</p>
+
+        <a class="btn btn-outline-dark btn-lg" href="#blog" role="#button">Veja nosso blog!</a>
+    </div>
+    <!--/jumbotron1-->
+    <section class="container">
+
+        <h2 id="blog" class="container ml-5 text-center">Blog</h2>
+        <div class="card-group mb-5">
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center">Nike</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur corrupti
+                        nisi nobis nemo ex. Aut ducimus quidem ipsa sequi facilis quibusdam voluptatum delectus? Qui
+                        fugit repudiandae pariatur dolor voluptas nulla.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center">Adidas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, distinctio
+                        eligendi natus dicta assumenda repudiandae sit sed quis corrupti voluptatibus debitis a
+                        voluptatum reiciendis accusantium placeat ex voluptate nam aperiam..
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <h5 class="card-title text-center">Balenciaga</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit odio fugit
+                        adipisci est veniam ullam quo sed nihil beatae, iusto, cum, praesentium dolorem reiciendis
+                        nostrum tenetur! Quisquam, reiciendis pariatur. Odit?</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container">
+        <p>Cadastre-de para receber mais novidades!</p>
+        <iframe class="mb-3" width="560" height="315" src="https://www.youtube.com/embed/fmVUswfmHs0" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div class="mb-3">
+            <div class="row mb-2 mt-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Primeiro Nome" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name">
+                </div>
+            </div>
+
+            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Envie sua mensagem!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="first">
+                        <h4>O que temos:</h4>
+                        <p> Notícias</p>
+                        <p> Clássicos</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="second">
+                        <h4> Navigate</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#">Marcas</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="third">
+                        <h4> Contact</h4>
+                        <ul>
+                            <li>Leonardo Silva </li>
+                            <li></li>
+
+
+                            <li><i class="far fa-envelope"></i> classico@shoes.com</li>
+                            <li><i class="far fa-envelope"></i> classico@classico.com</li>
+
+
+                            <li><i class="fas fa-map-marker-alt"></i> São Paulo, BR </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="container">
+                        <a href="https://www.instagram.com/leeomatheus/" target="_blank">
+                            <img class="socialsize" src="assets/img/instagram.png" alt="Instagram do autor da página">
+                        </a>
+                        <a href="https://github.com/LeonardoMFSilva" target="_blank">
+                            <img class="socialsize" src="assets/img/github.png" alt="GitHub do autor da página">
+                        </a>
+                        <a href="https://www.linkedin.com/in/leeosilva/" target="_blank">
+                            <img class="socialsize" src="assets/img/linkedin.png" alt="LinkedIn do autor da página">
+                        </a>
+                    </div>
+
+
+
+
+
+                    <p class="text-center text-light">
+                        Todos os direitos reservados para: Leonardo Silva &copy;
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
