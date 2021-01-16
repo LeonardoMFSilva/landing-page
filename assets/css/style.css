@@ -2,6 +2,14 @@ html{
     scroll-behavior: smooth;
  }
 
+ .centered-video {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
  .socialsize{
     padding: 15px;
 }
